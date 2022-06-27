@@ -1,4 +1,4 @@
-package com.example.simulator;
+package com.example.simulator.Ui;
 
 import android.os.Bundle;
 

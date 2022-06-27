@@ -1,4 +1,4 @@
-package com.example.simulator
+package com.example.simulator.Ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -15,5 +15,23 @@ class DetailActivity : AppCompatActivity() {
 
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        setupMatchesList();
+        setupMatchesRefresh();
+        setupFloatingActionButton();
     }
+
+    private fun setupMatchesList() {
+        TODO("Listar as partidas")
+    }
+
+    private fun setupMatchesRefresh() {
+        TODO("atualizar as partidas na ação swipe")
+    }
+
+    private fun setupFloatingActionButton() {
+        TODO("Criar evento de Click")
+    }
+
+
 }
